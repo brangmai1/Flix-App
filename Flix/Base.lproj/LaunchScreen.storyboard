@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" misplaced="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="7lq-G7-bup">
-                                <rect key="frame" x="138" y="294" width="138" height="139"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="7lq-G7-bup">
+                                <rect key="frame" x="138" y="378.5" width="138" height="139"/>
                                 <color key="backgroundColor" red="0.22447799032402324" green="0.92133218050003052" blue="0.11239270800645151" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
@@ -26,8 +26,6 @@
                         <constraints>
                             <constraint firstItem="7lq-G7-bup" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1Te-ps-ipr"/>
                             <constraint firstItem="7lq-G7-bup" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BXc-ON-1wZ"/>
-                            <constraint firstItem="7lq-G7-bup" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="50" id="juH-2T-Xhk"/>
-                            <constraint firstItem="7lq-G7-bup" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="50" id="vIb-lL-kc6"/>
                         </constraints>
                     </view>
                 </viewController>
