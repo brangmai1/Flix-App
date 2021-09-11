@@ -16,16 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79z-UV-8Ik">
+                                <rect key="frame" x="138" y="515" width="138" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41.5" id="p0S-L7-cmV"/>
+                                    <constraint firstAttribute="width" constant="138" id="sjP-nb-nKk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="32"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="7lq-G7-bup">
-                                <rect key="frame" x="138" y="378.5" width="138" height="139"/>
+                                <rect key="frame" x="138" y="379" width="138" height="139"/>
                                 <color key="backgroundColor" red="0.22447799032402324" green="0.92133218050003052" blue="0.11239270800645151" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="8gd-yZ-x8t"/>
+                                    <constraint firstAttribute="height" constant="139" id="d8z-WF-mVb"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7lq-G7-bup" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1Te-ps-ipr"/>
-                            <constraint firstItem="7lq-G7-bup" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BXc-ON-1wZ"/>
+                            <constraint firstItem="7lq-G7-bup" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="CfW-CX-7N1"/>
+                            <constraint firstItem="79z-UV-8Ik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="Tbc-S9-WA3"/>
+                            <constraint firstItem="7lq-G7-bup" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="335" id="qC8-xn-0R5"/>
+                            <constraint firstItem="79z-UV-8Ik" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="471" id="sm2-Rd-fqR"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,6 +56,9 @@
         <image name="launch_image" width="138" height="139"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
