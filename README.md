@@ -1,5 +1,7 @@
 # Flix
 
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+
 ## Flix Part 2
 
 ### User Stories
@@ -13,16 +15,7 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
-
-### Notes
-Describe any challenges encountered while building the app.
-
-# Flix
-
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+![](https://i.imgur.com/sFZI7yb.gif)
 
 ## Flix Part 1
 
@@ -39,5 +32,3 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/62917276/132150756-8a877718-0485-4b1f-9d33-fcf36f0a341f.gif)
 
 ##
-
-
